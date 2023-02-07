@@ -1,0 +1,54 @@
+/* Footer stilization */
+.footer {
+  display: flex;
+  gap: 100px;
+  &_item {
+    &:first-child {
+      max-width: 300px;
+    }
+    &:last-child {
+      max-width: 250px;
+    }
+  }
+  &_heading {
+    font-family: var(--title-font);
+    font-size: 25px;
+    color: var(--primary2-color);
+    line-height: 1.25;
+    margin-bottom: 9px;
+  }
+  &_link {
+    font-size: 22px;
+    line-height: 3;
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+  }
+  &_logo {
+    font-size: 40px;
+  }
+  &_div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 18px;
+    & > svg {
+      position: relative;
+      bottom: 4px;
+    }
+  }
+}
+
+.copyright {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  padding: 40px 0 45px 0;
+  justify-content: center;
+  &_text1 {
+    border-right: 1.5px solid var(--text-color);
+    padding-right: 10px;
+  }
+  &_text2 {
+    padding-left: 10px;
+  }
+}

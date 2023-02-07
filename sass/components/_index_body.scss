@@ -1,0 +1,330 @@
+/* Stilization of the home page */
+
+/* Plan section */
+.plan {
+  margin-top: 400px;
+  margin-bottom: 200px;
+  &_list {
+    display: flex;
+    gap: 42px;
+  }
+  &_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 30%;
+  }
+  &_link {
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  &_text {
+    text-align: center;
+  }
+}
+
+/* Creation section */
+.creation {
+  &_container {
+    display: flex;
+    gap: 75px;
+  }
+  &_text {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+  &_icon {
+    width: 32px;
+    height: 32px;
+    fill: none;
+    stroke: var(--primary1-color);
+  }
+  &_contact {
+    display: flex;
+    margin: 12px 0px 14px 0px;
+    gap: 15px;
+    align-items: center;
+  }
+  &_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 93px;
+    background-color: var(--primary3-color);
+    border-radius: 50%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &_contact_number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: var(--text-color);
+  }
+  &_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 31px;
+    gap: 12px;
+    width: 250px;
+  }
+  &_image {
+    border-radius: 0px 326.5px 0px 123px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Review section */
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary3-color);
+  padding: 88px 25px;
+  gap: 38px;
+  border-radius: 70px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  &_title {
+    display: block;
+    max-width: 547px;
+    text-align: center;
+  }
+  &_list {
+    display: flex;
+    gap: 20px;
+  }
+  &_item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-color);
+    flex: 1 0 25%;
+    padding: 53px 37px;
+    border: none;
+    border-radius: 20px;
+    &_container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+  }
+  &_names {
+    display: flex;
+    gap: 23px;
+    &_name {
+      display: block;
+      color: var(--primary2-color);
+      font-size: 25px;
+      font-family: var(--title-font);
+      flex: 1 0 100%;
+    }
+  }
+  &_image {
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Projects section */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  &_item1 {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 737px;
+  }
+  &_text {
+    text-align: center;
+  }
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    &_item {
+      flex: 1 0 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+  &_subtitle {
+    font-size: 25px;
+    margin-bottom: 4px;
+  }
+  &_item_div {
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 32px;
+  }
+  &_icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    width: 0.5em;
+    stroke: var(--primary2-color);
+    fill: none;
+  }
+  &_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary3-color);
+    &:hover .projects_icon {
+      stroke: var(--primary1-color);
+      cursor: pointer;
+    }
+  }
+  &_image1,
+  &_image2,
+  &_image3,
+  &_image4 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  &_image1 {
+    border-radius: 80px 0px 0px 0px;
+  }
+  &_image2 {
+    border-radius: 0px 80px 0px 0px;
+  }
+  &_image3 {
+    border-radius: 0px 0px 0px 80px;
+  }
+  &_image4 {
+    border-radius: 0px 0px 80px 0px;
+  }
+}
+
+/* Numbers section */
+.numbers {
+  background-color: var(--primary3-color);
+  margin-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 400px;
+  .container {
+    max-width: 1082px;
+  }
+  &_list {
+    display: flex;
+  }
+  &_item {
+    border-right: 1px solid var(--primary1-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    &:first-child {
+      padding-left: 0px;
+    }
+    &:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+  }
+  &_subtitle {
+    color: var(--primary1-color) !important;
+    margin-bottom: 16px;
+    font-size: 85px;
+  }
+}
+
+/* Articles section */
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  &_subtitle {
+    text-align: center;
+  }
+  &_text {
+    text-align: center;
+    display: block;
+    max-width: 811px;
+  }
+  &_item_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.article_list {
+  display: flex;
+  width: 100%;
+  gap: 27px;
+  margin-top: 40px;
+  &_item {
+    flex: 1 0 30%;
+    padding: 21px;
+    max-width: 340px;
+    border: 1px solid #e7e7e7;
+    border-radius: 62px;
+    & > img {
+      border-radius: 45px 45px 0px 0px;
+    }
+    &:hover {
+      background-color: var(--primary3-color);
+    }
+    &:hover .projects_link {
+      background-color: var(--white-color);
+    }
+  }
+  &_subtitle {
+    font-size: 25px !important;
+    max-width: 305px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Contact section */
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary2-color);
+  padding: 80px 0;
+  border-radius: 70px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  &_subtitle {
+    color: var(--white-color) !important;
+  }
+  &_text {
+    color: var(--white-color) !important;
+    margin-bottom: 21px;
+  }
+  &_button {
+    background-color: var(--primary1-color) !important;
+    color: var(--white-color);
+    padding: 26px 37px;
+  }
+  &_icon_vector {
+    stroke: var(--primary2-color) !important;
+    margin-left: 11px;
+  }
+}

@@ -1,0 +1,65 @@
+@import "../sass/utils/vars";
+@import "../sass/components/header";
+@import "../sass/components/index_body";
+@import "../sass/components/hero";
+@import "../sass/components/footer";
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 400;
+}
+
+.unstyled-list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.icon-vector {
+  fill: none;
+  stroke: var(--primary1-color);
+  stroke-width: 3px;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+
+.subtitle {
+  font-family: var(--title-font);
+  font-size: 50px;
+  line-height: 1.25;
+  color: var(--primary2-color);
+  letter-spacing: 0.02em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary2-color);
+  border-radius: 18px;
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  border: 0px;
+  font-family: var(--body-font);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}

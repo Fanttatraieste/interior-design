@@ -1,0 +1,36 @@
+/* Stilization of herp section */
+
+.hero {
+  display: flex;
+  &_inner {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: 1920px;
+    height: 851px;
+    background-image: url("../images/background/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    border-bottom-left-radius: 291px;
+    align-items: center;
+  }
+  &_container {
+    margin-left: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    flex-basis: 567px;
+  }
+  &_title {
+    font-family: var(--title-font);
+    font-size: 85px;
+    line-height: 1.25;
+    color: var(--primary2-color);
+  }
+  &_button {
+    gap: 10px;
+    margin-top: 12px;
+    max-width: 225px;
+    padding: 26px 48px;
+  }
+}
