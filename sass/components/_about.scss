@@ -1,0 +1,74 @@
+/* This style is for the about us page */
+/* Hero section */
+
+.about_hero {
+  background-image: url("../../images/background/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &_inner {
+    padding: 0px 152px;
+  }
+}
+
+/* Quote section */
+.quote_container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  position: relative;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  max-width: 760px;
+  margin: auto;
+  &_text,
+  &_text1 {
+    font-family: "DM Serif Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--primary2-color);
+    text-align: center;
+  }
+  &_text1 {
+    font-size: 85px;
+  }
+  .text {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 7px;
+  }
+}
+
+.left {
+  box-sizing: border-box;
+  width: 189px;
+  height: 428px;
+  border: 25px solid var(--primary3-color);
+  border-right: none;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  position: absolute;
+  left: 120px;
+  top: -40px;
+}
+
+.right {
+  box-sizing: border-box;
+  width: 189px;
+  height: 428px;
+  border: 25px solid var(--primary3-color);
+  border-left: none;
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+  position: absolute;
+  right: 120px;
+  top: -40px;
+}
