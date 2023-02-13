@@ -1,0 +1,127 @@
+/*
+    This is the stilization for the Home / Services page
+*/
+
+/* Hero services */
+.services__hero {
+  background-image: url("../images/background/services-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__inner {
+    padding: 0px 158px;
+  }
+}
+
+/* Work section */
+.work {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  &__item {
+    width: 30%;
+    padding: 83px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    &:hover {
+      background-color: var(--primary3-color);
+    }
+  }
+  &__subtitle {
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.25;
+    color: var(--primary2-color);
+  }
+  .text {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .icon-vector {
+    width: 16px;
+    height: 14px;
+  }
+  &__link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.25;
+    color: var(--text-color);
+  }
+}
+
+/* Steps section */
+.steps {
+  background-color: var(--primary3-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 160px 120px;
+  margin-bottom: 200px;
+  .subtitle {
+    text-align: center;
+  }
+  > .text {
+    text-align: center;
+    max-width: 800px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 80px;
+  }
+  &__item {
+    display: flex;
+    gap: 50px;
+    &__text {
+      display: flex;
+      flex-direction: column;
+    }
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+  &__subtitle {
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.25;
+    color: var(--primary2-color);
+    margin-bottom: 11px;
+  }
+
+  &__icon__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+
+    padding: 0px;
+  }
+  &__number {
+    font-family: var(--title-font);
+    font-size: 120px;
+    line-height: 1.25;
+    color: var(--white-color);
+  }
+  &__icon {
+    position: relative;
+    top: 5px;
+  }
+  img {
+    border-radius: 0px 123px 0px 326.5px;
+  }
+}
