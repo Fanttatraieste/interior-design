@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+  <head>
     <title>Interno</title>
     <link rel="stylesheet" href="../css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -9,20 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Header section -->
     <header class="container header">
-        <nav class="header_nav">
+      <nav class="header_nav">
         <div class="header_nav_item">
-          <svg width="34"  height="34">
+          <svg width="34" height="34">
             <use href="../images/svgs/logo.svg#icon-logo"></use>
           </svg>
           <p>Interno</p>
         </div>
         <ul class="unstyled-list header_list header_nav_item">
-          <li><a class="link header_list_item" href="../index.html">Home</a></li>
-          <li><a class="link header_list_item" href="pages.html">Pages</a></li>
+          <li>
+            <a class="link header_list_item" href="../index.html">Home</a>
+          </li>
+          <li>
+            <a class="link header_list_item" href="./pages.html">Pages</a>
+          </li>
           <li>
             <a class="link header_list_item" href="./services.html">Services</a>
           </li>
@@ -43,86 +47,27 @@
     </header>
     <main>
         <!-- Hero section -->
-        <section class="page_hero about_hero">
-            <div class="page_hero_inner about_hero_inner">
-                <h2 class="subtitle">About us</h2>
-                <p class="text">Home / About us</p>
+        <section class="page_hero team__hero">
+            <div class="page_hero_inner team__hero__inner">
+                <h2 class="subtitle">Our Profesional</h2>
+                <p class="text">Home / Team</p>
             </div>
-        </section>
-        <!-- Quote section -->
-        <section class="container quote_container">
-            <div class="left"></div>
-            <div class="quote">
-                <p class="quote_text1">“</p>
-                <p class="quote_text">I like an interior that defies labeling. I don't really want someone to walk into a room and know that I did it</p>
-                <p class="text">-BUNNY WILLIAMS</p>
-            </div>
-            <div class="right"></div>
-        </section>
-        <!-- What we do section -->
-        <section class="container what-we-do">
-          <div class="what-we-do__item1">
-            <div class="what-we-do__paragraph">
-              <h3 class="subtitle">What We Do</h3>
-              <p class="text">
-                It is a long established fact that a reader will be distracted by the of readable content of a page 
-when lookings at its layouts the points of using 
-that it has a more-or-less normal.
-              </p>
-              <button class="button" type="button">
-                Our Concept
-                <svg width="25" height="29" class="icon-vector">
-                  <use href="../images/svgs/search.svg#icon-vector"></use>
-                </svg>
-              </button>
-            </div>
-            <img
-              width="670"
-              srcset="../images/aboutPhotos/some-wood.jpg 670w, ../images/aboutPhotos/Photosome-wood1340.jpg 1340w"
-              src="../images/aboutPhotos/some-wood.jpg"
-            >
-          </div>
-          <div class="what-we-do__item2">
-            <div class="what-we-do__paragraph">
-              <h3 class="subtitle">The End Result</h3>
-              <p class="text">It is a long established fact that a reader will be distracted by the of readable content of a page 
-when lookings at its layouts the points of using 
-that it has a more-or-less normal.</p>
-              <button class="button" type="button">
-                Our Portfolio
-                <svg width="25" height="29" class="icon-vector">
-                  <use href="../images/svgs/search.svg#icon-vector"></use>
-                </svg>
-              </button>
-            </div>
-            <img
-              width="670"
-              srcset="../images/aboutPhotos/sofa.jpg 670w, ../images/aboutPhotos/Photosofa1848.jpg 1340w"
-              src="../images/aboutPhotos/sofa.jpg"
-            >
-          </div>
         </section>
         <!-- Team section -->
-        <section class="team">
+        <section class="profesional">
           <div class="container">
-            <h2 class="subtitle">
-              What the People Thinks About Us
-            </h2>
-            <ul class="team__list">
-              <li class="team__item">
+           
+            <ul class="profesional__list unstyled-list">
+              <li class="profesional__item">
                   <img
-                   width="283.55"
+                   width="283"
                    height="433"
                    src="../images/aboutPhotos/John.jpg" 
                    alt="John">
-                   <div class="overlay">
-                      <ul class="overlay__list unstyled-list">
-                        <li class="overlay__item">
-                          <h3 class="overlay__subtitle">John White</h3>
-                          <p class="overlay__text">Design, Australia</p>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="overlay__icon__list unstyled-list">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">John White</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
                             <li>
                               <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
                                 <svg class="overlay__icon">
@@ -152,31 +97,19 @@ that it has a more-or-less normal.</p>
                               </a>
                             </li>
                           </ul>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="unstyled-list overlay__contact">
-                            <li><a class="overlay__text link" href="tel:+13784001234">+1 (378) 400-1234</a></li>
-                            <li><a class="overlay__text link" href="mailto:julie@email.com">julie@email.com</a></li>
-                          </ul>
-                        </li>
-                      </ul>
                    </div>
               </li>
-              <li class="team__item">
+              <li class="profesional__item">
                   <img
-                   width="283.55"
+                   width="283"
                    height="433"
                    srcset="../images/aboutPhotos/Levi.jpg 680w, ../images/aboutPhotos/PhotoLevi1360.jpg 1360w"
                    src="../images/aboutPhotos/Levi.jpg" 
                    alt="Levi">
-                   <div class="overlay">
-                      <ul class="overlay__list unstyled-list">
-                        <li class="overlay__item">
-                          <h3 class="overlay__subtitle">Levi Ackermann</h3>
-                          <p class="overlay__text">Scout, South Koreea</p>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="overlay__icon__list unstyled-list">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Levi Ackerman</h3>
+                        <p class="overlay__text">Scouts, Paradis Island</p>
+                        <ul class="overlay__icon__list unstyled-list">
                             <li>
                               <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
                                 <svg class="overlay__icon">
@@ -206,31 +139,19 @@ that it has a more-or-less normal.</p>
                               </a>
                             </li>
                           </ul>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="unstyled-list overlay__contact">
-                            <li><a class="overlay__text link" href="tel:+13784001234">+1 (378) 400-1234</a></li>
-                            <li><a class="overlay__text link" href="mailto:julie@email.com">julie@email.com</a></li>
-                          </ul>
-                        </li>
-                      </ul>
                    </div>
               </li>
-              <li class="team__item">
+              <li class="profesional__item">
                   <img
-                   width="283.55"
+                   width="283"
                    height="433"
                    srcset="../images/aboutPhotos/Natasha.jpg 680w, ../images/aboutPhotos/PhotoNatasha1360.jpg 1360w"
                    src="../images/aboutPhotos/Natasha.jpg" 
                    alt="Natasha">
-                   <div class="overlay">
-                      <ul class="overlay__list unstyled-list">
-                        <li class="overlay__item">
-                          <h3 class="overlay__subtitle">Natasha Smith</h3>
-                          <p class="overlay__text">Design, Australia</p>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="overlay__icon__list unstyled-list">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Nattasha Julie</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
                             <li>
                               <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
                                 <svg class="overlay__icon">
@@ -260,31 +181,19 @@ that it has a more-or-less normal.</p>
                               </a>
                             </li>
                           </ul>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="unstyled-list overlay__contact">
-                            <li><a class="overlay__text link" href="tel:+13784001234">+1 (378) 400-1234</a></li>
-                            <li><a class="overlay__text link" href="mailto:julie@email.com">julie@email.com</a></li>
-                          </ul>
-                        </li>
-                      </ul>
                    </div>
               </li>
-              <li class="team__item">
+              <li class="profesional__item">
                   <img
-                   width="283.55"
+                   width="283"
                    height="433"
                    srcset="../images/aboutPhotos/Nora.jpg 680w, ../images/aboutPhotos/PhotoNora1360w.jpg 1360w"
                    src="../images/aboutPhotos/Nora.jpg" 
                    alt="Nora">
-                   <div class="overlay">
-                      <ul class="overlay__list unstyled-list">
-                        <li class="overlay__item">
-                          <h3 class="overlay__subtitle">Nora Petrescu</h3>
-                          <p class="overlay__text">Casierita, Anabella</p>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="overlay__icon__list unstyled-list">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Nora Owen</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
                             <li>
                               <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
                                 <svg class="overlay__icon">
@@ -314,39 +223,179 @@ that it has a more-or-less normal.</p>
                               </a>
                             </li>
                           </ul>
-                        </li>
-                        <li class="overlay__item">
-                          <ul class="unstyled-list overlay__contact">
-                            <li><a class="overlay__text link" href="tel:+13784001234">+1 (378) 400-1234</a></li>
-                            <li><a class="overlay__text link" href="mailto:julie@email.com">julie@email.com</a></li>
+                   </div>
+              </li>
+                <li class="profesional__item">
+                  <img
+                   width="283"
+                   height="433"
+                   src="../images/aboutPhotos/sofia.jpg" 
+                   alt="Sofia">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Sofia	Carter</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-facebook"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://twitter.com/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-twitter"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.linkedin.com/in/uta-vlad-719b221a2/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-linkedin"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.instagram.com/uta_vlad/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-instagram"></use>
+                                </svg>
+                              </a>
+                            </li>
                           </ul>
-                        </li>
-                      </ul>
+                   </div>
+              </li>
+              <li class="profesional__item">
+                  <img
+                   width="283"
+                   height="433"
+                   src="../images/aboutPhotos/avery.jpg" 
+                   alt="Avery">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Avery	Jackson</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-facebook"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://twitter.com/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-twitter"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.linkedin.com/in/uta-vlad-719b221a2/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-linkedin"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.instagram.com/uta_vlad/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-instagram"></use>
+                                </svg>
+                              </a>
+                            </li>
+                          </ul>
+                   </div>
+              </li>
+              <li class="profesional__item">
+                  <img
+                   width="283"
+                   height="433"
+                   src="../images/aboutPhotos/luna.jpg" 
+                   alt="Luna">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Luna James</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-facebook"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://twitter.com/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-twitter"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.linkedin.com/in/uta-vlad-719b221a2/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-linkedin"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.instagram.com/uta_vlad/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-instagram"></use>
+                                </svg>
+                              </a>
+                            </li>
+                          </ul>
+                   </div>
+              </li>
+              <li class="profesional__item">
+                  <img
+                   width="283"
+                   height="433"
+                   src="../images/aboutPhotos/gianna.jpg" 
+                   alt="Gianna">
+                   <div class="profesional__block">
+                        <h3 class="overlay__subtitle">Gianna Mateo</h3>
+                        <p class="overlay__text">Design, Australia</p>
+                        <ul class="overlay__icon__list unstyled-list">
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.facebook.com/silviu.gherman" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-facebook"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://twitter.com/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-twitter"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.linkedin.com/in/uta-vlad-719b221a2/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-linkedin"></use>
+                                </svg>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="overlay__icon__link" href="https://www.instagram.com/uta_vlad/" target="_blank">
+                                <svg class="overlay__icon">
+                                  <use href="../images/svgs/socialIcons.svg#icon-instagram"></use>
+                                </svg>
+                              </a>
+                            </li>
+                          </ul>
                    </div>
               </li>
             </ul>
           </div>
         </section>
-        <!-- Formular section -->
-        <section class="container form-container">
-          <h2 class="subtitle">
-            Creative project? Let's have a productive talk.
-          </h2>
-          <form class="about-form">
-            <input type="text" name="name" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <textarea name="message" placeholder="Hello Iam Intrested in.."></textarea>
-          </form>
-          <button class="button form-container__button">
-            Send Now
-            <svg width="25" height="29" class="icon-vector">
-              <use href="../images/svgs/search.svg#icon-vector"></use>
-            </svg>
-          </button>
-        </section>
     </main>
+    <!-- Footer section -->
     <footer>
-        <div class="footer container">
+      <div class="footer container">
         <div class="footer_item">
           <div class="footer_div">
             <svg width="34" height="34">
@@ -362,7 +411,7 @@ that it has a more-or-less normal.</p>
         <div class="footer_item">
           <h3 class="footer_heading">Pages</h3>
           <ul class="unstyled-list">
-            <li><a class="link footer_link" href="./html/aboutUs.html">About Us</a></li>
+            <li><a class="link footer_link" href="./aboutUs.html">About Us</a></li>
             <li><a class="link footer_link" href="./project.html">Our Projects</a></li>
             <li><a class="link footer_link" href="./team.html">Our Team</a></li>
             <li><a class="link footer_link" href="./contactUs.html">Contact Us</a></li>

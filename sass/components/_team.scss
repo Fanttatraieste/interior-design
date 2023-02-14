@@ -1,0 +1,37 @@
+/* Team stilization */
+
+/* Hero */
+.team__hero {
+  background-image: url("../images/background/team-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__inner {
+    padding: 0px 158px;
+  }
+}
+
+.profesional {
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+  &__item {
+    img {
+      border-radius: 30px;
+    }
+  }
+  &__block {
+    display: flex;
+    margin-top: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    .overlay__subtitle {
+      font-weight: 400;
+    }
+  }
+}
